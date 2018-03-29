@@ -5,6 +5,12 @@
 [![License](https://img.shields.io/cocoapods/l/GeoMagnetism.svg?style=flat)](http://cocoapods.org/pods/GeoMagnetism)
 [![Platform](https://img.shields.io/cocoapods/p/GeoMagnetism.svg?style=flat)](http://cocoapods.org/pods/GeoMagnetism)
 
+This is a Swift port of Android's [`GeomagneticField` class](https://developer.android.com/reference/android/hardware/GeomagneticField.html).
+
+The `GeomagneticField` allows you to query parameters of the earth's magnetic field a at a prticular location at a particular time. It is calculated based on the World Magnetic Model (WMM)
+as published by the United States National Geospatial-Intelligence Agency.
+
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -20,10 +26,11 @@ it, simply add the following line to your Podfile:
 pod 'GeoMagnetism'
 ```
 
-## Author
+## Authors
 
+CSS Computer-Systems-Support Ges.m.b.H., office@cssteam.at
 dasMulli, martin.andreas.ullrich@gmail.com
 
 ## License
 
-GeoMagnetism is available under the MIT license. See the LICENSE file for more info.
+GeoMagnetism is available under the Apache 2.0 license. See the LICENSE file for more info.

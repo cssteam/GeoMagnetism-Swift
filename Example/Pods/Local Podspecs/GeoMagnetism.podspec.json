@@ -1,0 +1,22 @@
+{
+  "name": "GeoMagnetism",
+  "version": "0.1.0",
+  "summary": "A short description of GeoMagnetism.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dasMulli/GeoMagnetism",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dasMulli": "martin.andreas.ullrich@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/dasMulli/GeoMagnetism.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GeoMagnetism/Classes/**/*"
+}

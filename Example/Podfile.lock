@@ -1,0 +1,22 @@
+PODS:
+  - GeoMagnetism (0.1.0)
+  - Nimble (7.0.3)
+  - Quick (1.2.0)
+
+DEPENDENCIES:
+  - GeoMagnetism (from `../`)
+  - Nimble (~> 7.0.2)
+  - Quick (~> 1.2.0)
+
+EXTERNAL SOURCES:
+  GeoMagnetism:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GeoMagnetism: 84fe0baf0b45edda36558ab5b130597ff9299e86
+  Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+
+PODFILE CHECKSUM: d6a5ecc2cdef6ff4a223a60c84deb56a46827d77
+
+COCOAPODS: 1.4.0
