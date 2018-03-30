@@ -22,14 +22,15 @@ Estimates the magnetic field on given points on the Earth.
 This can be used to calculate magnectic declination from true north for compass navigation.
                        DESC
 
-  s.homepage         = 'https://github.com/dasMulli/GeoMagnetism'
+  s.homepage         = 'https://github.com/cssteam/GeoMagnetism-Swift'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'Apache 2.0', :file => 'LICENSE' }
   s.author           = { 'dasMulli' => 'martin.andreas.ullrich@gmail.com' }
-  s.source           = { :git => 'https://github.com/cssteam/GeoMagnetism.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/cssteam/GeoMagnetism-Swift.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.swift_version = '4.1'
 
   s.source_files = 'GeoMagnetism/Classes/**/*'
   

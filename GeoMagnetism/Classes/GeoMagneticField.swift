@@ -261,7 +261,7 @@ public class GeomagneticField {
         }
         let inverseCosLatitude: Double = 1.0 / cos(mGcLatitudeRad);
         let yearsSinceBase =
-            (timeMillis - GeomagneticField.BASE_TIME) / Double(365 * 24 * 60 * 60 * 1000);
+            (timeMillis - GeomagneticField.BASE_TIME) / (365.0 * 24.0 * 60.0 * 60.0 * 1000.0);
         // We now compute the magnetic field strength given the geocentric
         // location. The magnetic field is the derivative of the potential
         // function defined by the model. See NOAA Technical Report: The US/UK
