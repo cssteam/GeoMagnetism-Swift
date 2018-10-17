@@ -1,22 +1,23 @@
 {
   "name": "GeoMagnetism",
-  "version": "0.1.0",
-  "summary": "A short description of GeoMagnetism.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/dasMulli/GeoMagnetism",
+  "version": "0.1.1",
+  "summary": "Estimates the magnetic field on given points on the Earth.",
+  "description": "Estimates the magnetic field on given points on the Earth.\nThis can be used to calculate magnectic declination from true north for compass navigation.",
+  "homepage": "https://github.com/cssteam/GeoMagnetism-Swift",
   "license": {
-    "type": "MIT",
+    "type": "Apache 2.0",
     "file": "LICENSE"
   },
   "authors": {
     "dasMulli": "martin.andreas.ullrich@gmail.com"
   },
   "source": {
-    "git": "https://github.com/dasMulli/GeoMagnetism.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/cssteam/GeoMagnetism-Swift.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
+  "swift_version": "4.2",
   "source_files": "GeoMagnetism/Classes/**/*"
 }

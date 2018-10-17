@@ -1,22 +1,27 @@
 PODS:
-  - GeoMagnetism (0.1.0)
-  - Nimble (7.0.3)
-  - Quick (1.2.0)
+  - GeoMagnetism (0.1.1)
+  - Nimble (7.3.1)
+  - Quick (1.3.2)
 
 DEPENDENCIES:
   - GeoMagnetism (from `../`)
-  - Nimble (~> 7.0.2)
-  - Quick (~> 1.2.0)
+  - Nimble (~> 7.3.1)
+  - Quick (~> 1.3.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Nimble
+    - Quick
 
 EXTERNAL SOURCES:
   GeoMagnetism:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  GeoMagnetism: 84fe0baf0b45edda36558ab5b130597ff9299e86
-  Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
-  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  GeoMagnetism: 475f8f74b6735fb94f35811e542e1148304db980
+  Nimble: 04f732da099ea4d153122aec8c2a88fd0c7219ae
+  Quick: 2623cb30d7a7f41ca62f684f679586558f483d46
 
-PODFILE CHECKSUM: d6a5ecc2cdef6ff4a223a60c84deb56a46827d77
+PODFILE CHECKSUM: 5376a19a8afcaba0c3bb00d820f7b7abc16f4ffc
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3

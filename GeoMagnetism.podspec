@@ -30,7 +30,7 @@ This can be used to calculate magnectic declination from true north for compass 
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-  s.swift_version = '4.1'
+  s.swift_version = '4.2'
 
   s.source_files = 'GeoMagnetism/Classes/**/*'
   
